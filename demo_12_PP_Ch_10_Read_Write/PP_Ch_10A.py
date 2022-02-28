@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """
 ##################################################
 #
@@ -215,7 +215,7 @@ for planet in sorted(planets):
 
 # Often, it is useful to process the contents of a file
 # one line at a time. The for line in filetechnique
-# lets you read a file with the functionality of a forloop
+# lets you read a file with the functionality of a for loop
 # and the efficiency of working with the contents one line at a time. 
 
 
@@ -291,7 +291,7 @@ with open('hopedale.txt', 'r') as hopedale_file:
     # Accumulate the total number of pelts.
     # Convert the string to an integer for the first value in the sum.
     total_pelts = int(data)
-
+ 
     # Read the rest of the data.
     for data in hopedale_file:
         total_pelts = total_pelts + int(data.strip())
@@ -299,7 +299,7 @@ with open('hopedale.txt', 'r') as hopedale_file:
 print("Total number of pelts:", total_pelts)
 
 
-
+ 
 
 
 
